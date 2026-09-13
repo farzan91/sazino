@@ -1,0 +1,224 @@
+/* =========================
+    FOR ACADEMIES SECTION
+========================= */
+
+#for-training-centers{
+    padding: 80px 40px;
+
+    text-align: center;
+}
+
+#for-training-centers h2{
+    font-size: 2.5rem;
+
+    color: var(--text-primary);
+
+    margin-bottom: 20px;
+}
+
+#for-training-centers > p{
+    max-width: 900px;
+
+    margin: 0 auto 50px;
+
+    color: var(--text-secondary);
+
+    line-height: 2;
+
+    font-size: 1.1rem;
+}
+
+#for-training-centers .container{
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 25px;
+}
+
+#for-training-centers .card{
+    width: 280px;
+
+    min-height: 230px;
+
+    padding: 25px;
+
+    border-radius: 24px;
+
+    color: var(--text-light);
+
+    animation: animationTrainingCenters 8s ease-in-out infinite;
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+}
+
+#for-training-centers .card:hover{
+    transform: translateY(-8px);
+
+    box-shadow: 0 15px 30px var(--shadow);
+}
+
+#for-training-centers .card h3{
+    font-size: 1.3rem;
+
+    margin-bottom: 15px;
+    color: var(--animationcolor);
+
+}
+
+#for-training-centers .card p{
+    line-height: 1.9;
+
+    font-size: .95rem;
+    padding-top: 30px;
+    font-weight: bold;
+    color: var(--animationcolor);
+
+}
+/* ========================= */
+/* Tablet */
+/* ========================= */
+@media (max-width: 992px){
+
+    #for-training-centers{
+
+        padding: 70px 25px;
+
+    }
+
+    #for-training-centers h2{
+
+        font-size: 2.1rem;
+
+    }
+
+    #for-training-centers > p{
+
+        font-size: 1rem;
+
+        margin-bottom: 40px;
+
+    }
+
+    #for-training-centers .card{
+
+        width: 240px;
+
+        min-height: 220px;
+
+    }
+
+}
+
+/* ========================= */
+/* Mobile */
+/* ========================= */
+@media (max-width: 768px){
+
+    #for-training-centers{
+
+        padding: 60px 20px;
+
+    }
+
+    #for-training-centers h2{
+
+        font-size: 1.9rem;
+
+    }
+
+    #for-training-centers > p{
+
+        font-size: .95rem;
+
+        line-height: 1.9;
+
+        margin-bottom: 35px;
+    }
+
+    #for-training-centers .container{
+
+        gap: 18px;
+
+    }
+
+    #for-training-centers .card{
+
+        width: 100%;
+
+        max-width: 500px;
+
+        min-height: auto;
+
+        padding: 22px;
+
+    }
+
+    #for-training-centers .card h3{
+
+        font-size: 1.15rem;
+
+    }
+
+    #for-training-centers .card p{
+
+        font-size: .9rem;
+
+        padding-top: 20px;
+
+    }
+
+}
+
+/* ========================= */
+/* Small Mobile */
+/* ========================= */
+@media (max-width: 480px){
+
+    #for-training-centers{
+
+        padding: 50px 15px;
+
+    }
+
+    #for-training-centers h2{
+
+        font-size: 1.6rem;
+
+    }
+
+    #for-training-centers > p{
+
+        font-size: .9rem;
+
+        line-height: 1.8;
+
+    }
+
+    #for-training-centers .card{
+
+        padding: 18px;
+
+        border-radius: 18px;
+
+    }
+
+    #for-training-centers .card h3{
+
+        font-size: 1.05rem;
+
+    }
+
+    #for-training-centers .card p{
+
+        font-size: .85rem;
+
+        padding-top: 15px;
+
+    }
+
+}

@@ -1,0 +1,190 @@
+/* =========================
+    HOME HEADER
+========================= */
+
+#home{
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 120px 40px 60px;
+
+    text-align: center;
+}
+
+.home-content{
+    max-width: 900px;
+}
+
+.home-content h1{
+    color: var(--text-primary);
+
+    font-size: 4rem;
+
+    margin-bottom: 20px;
+}
+
+.home-content p{
+    color: var(--text-secondary);
+
+    font-size: 1.2rem;
+
+    line-height: 2;
+
+    margin-bottom: 30px;
+}
+
+.home-content span{
+    display: inline-block;
+
+    margin: 5px;
+
+    padding: 8px 16px;
+
+    border-radius: 999px;
+
+    background-color: var(--bg-card);
+
+    border: 1px solid var(--border);
+
+    color: var(--text-primary);
+}
+
+.buttons{
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    margin-top: 25px;
+}
+
+.buttons a{
+    display: inline-flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 12px 28px;
+
+    border-radius: 12px;
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+}
+
+.buttons a:first-child{
+    background-color: var(--button-bg);
+
+    color: var(--button-text);
+}
+
+.buttons a:last-child{
+    background-color: var(--bg-card);
+
+    border: 1px solid var(--border);
+
+    color: var(--text-primary);
+}
+
+.buttons a:hover{
+    transform: translateY(-4px);
+
+    box-shadow: 0 10px 25px var(--shadow);
+}
+
+.buttons a:active{
+    transform: scale(.97);
+}
+/* =========================
+    TABLET
+========================= */
+
+@media (max-width: 992px){
+
+    #home{
+        padding: 140px 30px 50px;
+    }
+
+    .home-content h1{
+        font-size: 3rem;
+    }
+
+    .home-content p{
+        font-size: 1.1rem;
+    }
+
+}
+/* =========================
+    MOBILE
+========================= */
+
+@media (max-width: 768px){
+
+    #home{
+        padding: 180px 20px 40px;
+    }
+
+    .home-content{
+        max-width: 100%;
+    }
+
+    .home-content h1{
+        font-size: 2.3rem;
+
+        line-height: 1.4;
+    }
+
+    .home-content p{
+        font-size: 1rem;
+
+        line-height: 1.9;
+    }
+
+    .buttons{
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .buttons a{
+        width: 220px;
+    }
+
+}
+/* =========================
+    SMALL MOBILE
+========================= */
+
+@media (max-width: 480px){
+
+    #home{
+        padding: 200px 15px 30px;
+    }
+
+    .home-content h1{
+        font-size: 1.8rem;
+    }
+
+    .home-content p{
+        font-size: .95rem;
+    }
+
+    .home-content span{
+        display: block;
+
+        width: fit-content;
+
+        margin: 8px auto;
+    }
+
+    .buttons a{
+        width: 100%;
+        max-width: 250px;
+    }
+
+}

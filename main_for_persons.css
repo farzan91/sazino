@@ -1,0 +1,182 @@
+/* =========================
+    FOR INDIVIDUALS SECTION
+========================= */
+
+#for-individuals{
+    padding: 80px 40px;
+
+    text-align: center;
+}
+
+#for-individuals h2{
+    font-size: 2.5rem;
+
+    color: var(--text-primary);
+
+    margin-bottom: 20px;
+}
+
+#for-individuals > p{
+    max-width: 850px;
+
+    margin: 0 auto 50px;
+
+    color: var(--text-secondary);
+
+    line-height: 2;
+
+    font-size: 1.1rem;
+}
+
+#for-individuals .container{
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 25px;
+}
+
+#for-individuals .card{
+    width: 260px;
+
+    min-height: 220px;
+
+    padding: 25px;
+
+    border-radius: 24px;
+
+    color: var(--text-light);
+
+    animation: animationIndividuals 8s ease-in-out infinite;
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+}
+
+#for-individuals .card:hover{
+    transform: translateY(-8px);
+
+    box-shadow: 0 15px 30px var(--shadow);
+}
+
+#for-individuals .card h3{
+    font-size: 1.3rem;
+
+    margin-bottom: 15px;
+    color: var(--animationcolor);
+
+}
+
+#for-individuals .card p{
+    line-height: 1.9;
+
+    font-size: .95rem;
+    font-weight: bold;
+    padding-top: 30px;
+    color: var(--animationcolor);
+
+}
+/* =========================
+    TABLET
+========================= */
+
+@media (max-width: 992px){
+
+    #for-individuals{
+        padding: 70px 25px;
+    }
+
+    #for-individuals h2{
+        font-size: 2.2rem;
+    }
+
+    #for-individuals > p{
+        font-size: 1rem;
+    }
+
+    #for-individuals .container{
+        gap: 20px;
+    }
+
+    #for-individuals .card{
+        width: 240px;
+    }
+
+}
+/* =========================
+    MOBILE
+========================= */
+
+@media (max-width: 768px){
+
+    #for-individuals{
+        padding: 60px 20px;
+    }
+
+    #for-individuals h2{
+        font-size: 2rem;
+    }
+
+    #for-individuals > p{
+        font-size: .95rem;
+
+        line-height: 1.9;
+
+        margin-bottom: 35px;
+    }
+
+    #for-individuals .card{
+        width: 100%;
+
+        max-width: 380px;
+
+        min-height: auto;
+    }
+
+    #for-individuals .card h3{
+        font-size: 1.2rem;
+    }
+
+    #for-individuals .card p{
+        font-size: .9rem;
+
+        padding-top: 15px;
+    }
+
+}
+/* =========================
+    SMALL MOBILE
+========================= */
+
+@media (max-width: 480px){
+
+    #for-individuals{
+        padding: 50px 15px;
+    }
+
+    #for-individuals h2{
+        font-size: 1.7rem;
+    }
+
+    #for-individuals > p{
+        font-size: .9rem;
+    }
+
+    #for-individuals .card{
+        padding: 20px;
+    }
+
+    #for-individuals .card h3{
+        font-size: 1.05rem;
+    }
+
+    #for-individuals .card p{
+        font-size: .85rem;
+
+        line-height: 1.8;
+    }
+
+}

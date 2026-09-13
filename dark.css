@@ -1,0 +1,57 @@
+:root{
+
+    /* پس زمینه ها */
+    --bg-main: #0B0714;
+    --bg-section: #120D1F;
+    --bg-card: #1A132B;
+    --bg-navbar: rgba(11,7,20,.92);
+
+    /* متن ها */
+    --text-primary: #F5F3FF;
+    --text-secondary: #C4B5FD;
+    --text-light: #FFFFFF;
+    --animationcolor : #000000;
+
+    /* رنگ اصلی برند */
+    --primary: #8B5CF6;
+    --primary-hover: #A78BFA;
+
+    /* رنگ مکمل */
+    --secondary: #7C3AED;
+    --secondary-hover: #A855F7;
+
+    /* خطوط و سایه */
+    --border: #312E81;
+    --shadow: rgba(0,0,0,.55);
+
+    /* دکمه ها */
+    --button-bg: #7C3AED;
+    --button-hover: #8B5CF6;
+    --button-text: #FFFFFF;
+
+    /* لینک ها */
+    --link: #C4B5FD;
+    --link-hover: #DDD6FE;
+
+    /* خدمات */
+    --services-primary: #4C1D95;
+    --services-secondary: #8B5CF6;
+
+    /* افراد */
+    --individuals-primary: #5B21B6;
+    --individuals-secondary: #A78BFA;
+
+    /* آموزشگاه ها */
+    --training-primary: #6D28D9;
+    --training-secondary: #C4B5FD;
+
+    /* تیم ما */
+    --team-primary: #581C87;
+    --team-secondary: #D8B4FE;
+    --team-shadow : #ffffff;
+
+    /* تماس با ما */
+    --contact-primary: #7E22CE;
+    --contact-secondary: #E9D5FF;
+
+}

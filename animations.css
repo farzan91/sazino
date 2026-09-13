@@ -1,0 +1,142 @@
+@keyframes animationServices {
+    0% {
+        background: linear-gradient(
+            135deg,
+            var(--services-primary),
+            var(--services-secondary),
+            var(--services-primary)
+        );
+        background-size: 300% 300%;
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background: linear-gradient(
+            135deg,
+            var(--services-primary),
+            var(--services-secondary),
+            var(--services-primary)
+        );
+        background-size: 300% 300%;
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background: linear-gradient(
+            135deg,
+            var(--services-primary),
+            var(--services-secondary),
+            var(--services-primary)
+        );
+        background-size: 300% 300%;
+        background-position: 0% 0%;
+    }
+}
+
+@keyframes animationIndividuals {
+    0% {
+        background: linear-gradient(45deg,
+            var(--individuals-primary),
+            var(--individuals-secondary),
+            var(--individuals-primary));
+        background-size: 300% 300%;
+        background-position: 0% 50%;
+    }
+    50% {
+        background: linear-gradient(45deg,
+            var(--individuals-primary),
+            var(--individuals-secondary),
+            var(--individuals-primary));
+        background-size: 300% 300%;
+        background-position: 100% 50%;
+    }
+    100% {
+        background: linear-gradient(45deg,
+            var(--individuals-primary),
+            var(--individuals-secondary),
+            var(--individuals-primary));
+        background-size: 300% 300%;
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes animationTrainingCenters {
+    0% {
+        background: linear-gradient(180deg,
+            var(--training-primary),
+            var(--training-secondary),
+            var(--training-primary));
+        background-size: 300% 300%;
+        background-position: 50% 0%;
+    }
+    50% {
+        background: linear-gradient(180deg,
+            var(--training-primary),
+            var(--training-secondary),
+            var(--training-primary));
+        background-size: 300% 300%;
+        background-position: 50% 100%;
+    }
+    100% {
+        background: linear-gradient(180deg,
+            var(--training-primary),
+            var(--training-secondary),
+            var(--training-primary));
+        background-size: 300% 300%;
+        background-position: 50% 0%;
+    }
+}
+
+@keyframes animationTeam {
+    0% {
+        background: linear-gradient(90deg,
+            var(--team-primary),
+            var(--team-secondary),
+            var(--team-primary));
+        background-size: 300% 300%;
+        background-position: 0% 0%;
+    }
+    50% {
+        background: linear-gradient(90deg,
+            var(--team-primary),
+            var(--team-secondary),
+            var(--team-primary));
+        background-size: 300% 300%;
+        background-position: 100% 0%;
+    }
+    100% {
+        background: linear-gradient(90deg,
+            var(--team-primary),
+            var(--team-secondary),
+            var(--team-primary));
+        background-size: 300% 300%;
+        background-position: 0% 0%;
+    }
+}
+
+@keyframes animationContact {
+    0% {
+        background: linear-gradient(135deg,
+            var(--contact-primary),
+            var(--contact-secondary),
+            var(--contact-primary));
+        background-size: 400% 400%;
+        background-position: 0% 100%;
+    }
+    50% {
+        background: linear-gradient(135deg,
+            var(--contact-primary),
+            var(--contact-secondary),
+            var(--contact-primary));
+        background-size: 400% 400%;
+        background-position: 100% 0%;
+    }
+    100% {
+        background: linear-gradient(135deg,
+            var(--contact-primary),
+            var(--contact-secondary),
+            var(--contact-primary));
+        background-size: 400% 400%;
+        background-position: 0% 100%;
+    }
+}

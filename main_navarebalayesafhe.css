@@ -1,0 +1,115 @@
+/* =========================
+    TOP NAVBAR
+========================= */
+
+.wrap-nav{
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 12px 32px;
+
+    background-color: var(--bg-navbar);
+
+    border-bottom: 1px solid var(--border);
+
+    backdrop-filter: blur(10px);
+
+    z-index: 1000;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#logo{
+    width: 45px;
+    height: 45px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+
+.left h2{
+    font-size: 1.2rem;
+    color: var(--text-primary);
+}
+
+.wrap-nav nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.wrap-nav nav a{
+    position: relative;
+
+    color: var(--text-primary);
+
+    font-size: 1rem;
+
+    transition: color .3s ease;
+}
+
+.wrap-nav nav a:hover{
+    color: var(--primary);
+}
+
+.wrap-nav nav a::after{
+    content: '';
+
+    position: absolute;
+
+    right: 0;
+    bottom: -4px;
+
+    width: 0;
+
+    height: 2px;
+
+    background: var(--primary);
+
+    transition: width .3s ease;
+}
+
+.wrap-nav nav a:hover::after{
+    width: 100%;
+}
+@media (max-width: 768px){
+
+    .wrap-nav{
+
+        padding: 10px 15px;
+
+        justify-content: space-between;
+    }
+
+    .left h2{
+
+        display: none;
+    }
+
+    .wrap-nav nav{
+
+        gap: 10px;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    .wrap-nav nav a{
+
+        font-size: .85rem;
+    }
+
+}
