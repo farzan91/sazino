@@ -1,0 +1,334 @@
+/* =========================
+    SERVICES CALCULATOR
+========================= */
+
+#services-calculator{
+
+    padding: 80px 40px;
+
+    text-align: center;
+
+}
+
+#services-calculator h2{
+
+    font-size: 2.5rem;
+
+    color: var(--text-primary);
+
+    margin-bottom: 20px;
+
+}
+
+#services-calculator > p{
+
+    max-width: 800px;
+
+    margin: 0 auto 50px;
+
+    color: var(--text-secondary);
+
+    line-height: 2;
+
+    font-size: 1.1rem;
+
+}
+
+#services-calculator .container{
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 25px;
+
+}
+
+#services-calculator .card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 250px;
+
+    min-height: 180px;
+
+    padding: 25px;
+
+    border-radius: 24px;
+
+    animation: animationCalculator 8s ease-in-out infinite;
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+
+}
+
+
+#services-calculator .card>label{
+
+    display: block;
+
+    margin-bottom: 15px;
+
+    font-size: 1.2rem;
+
+    font-weight: bold;
+
+    color: var(--animationcolor);
+
+}
+.a{
+    gap: 20px;
+}
+#wor-por{
+    display: flex;
+    justify-content: space-evenly;
+}
+#services-calculator .card>input{
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+
+    padding: 12px;
+
+    border-radius: 12px;
+
+    border: 1px solid var(--border);
+
+    background-color: var(--bg-card);
+
+    color: var(--text-primary);
+
+    font-family: inherit;
+
+    font-size: 1rem;
+
+    outline: none;
+    text-align: end;
+    
+    transition:
+        border-color .3s ease,
+        box-shadow .3s ease;
+
+}
+#services-calculator .card input::-webkit-outer-spin-button,
+#services-calculator .card input::-webkit-inner-spin-button{
+
+    -webkit-appearance: none;
+
+    margin: 0;
+
+}
+
+/* Firefox */
+
+#services-calculator .card input[type="number"]{
+
+    -moz-appearance: textfield;
+
+}
+
+#services-calculator .card>input:focus{
+
+    border-color: var(--calculator-primary);
+
+    box-shadow: 0 0 12px var(--shadow);
+
+}
+
+.result-box{
+
+    width: fit-content;
+
+    margin: 40px auto 20px;
+
+    padding: 25px 40px;
+
+    border-radius: 20px;
+
+    background-color: var(--bg-card);
+
+    border: 1px solid var(--border);
+
+}
+
+.result-box h3{
+
+    color: var(--text-primary);
+
+    margin-bottom: 15px;
+
+}
+
+#total-price{
+
+    font-size: 2rem;
+
+    font-weight: bold;
+
+    color: var(--calculator-primary);
+
+}
+
+.note{
+
+    color: var(--text-secondary);
+
+    font-size: .95rem;
+
+    max-width: 900px;
+
+    margin: 20px auto 0;
+
+    line-height: 2;
+
+}
+
+/* ========================= */
+/* Tablet */
+/* ========================= */
+
+@media (max-width: 992px){
+
+    #services-calculator{
+
+        padding: 70px 25px;
+
+    }
+
+    #services-calculator h2{
+
+        font-size: 2.1rem;
+
+    }
+
+    #services-calculator > p{
+
+        font-size: 1rem;
+
+    }
+
+    #services-calculator .card{
+
+        width: 220px;
+
+    }
+
+}
+
+/* ========================= */
+/* Mobile */
+/* ========================= */
+
+@media (max-width: 768px){
+
+    #services-calculator{
+
+        padding: 60px 20px;
+
+    }
+
+    #services-calculator h2{
+
+        font-size: 1.8rem;
+
+    }
+
+    #services-calculator > p{
+
+        font-size: .95rem;
+
+        margin-bottom: 35px;
+
+    }
+
+    #services-calculator .container{
+
+        gap: 18px;
+
+    }
+
+    #services-calculator .card{
+
+        width: min(100%, 320px);
+
+        min-height: auto;
+
+    }
+
+    .result-box{
+
+        width: 90%;
+
+        padding: 20px;
+
+    }
+
+    #total-price{
+
+        font-size: 1.6rem;
+
+    }
+
+}
+
+/* ========================= */
+/* Small Mobile */
+/* ========================= */
+
+@media (max-width: 480px){
+
+    #services-calculator{
+
+        padding: 50px 15px;
+
+    }
+
+    #services-calculator h2{
+
+        font-size: 1.6rem;
+
+    }
+
+    #services-calculator > p{
+
+        font-size: .9rem;
+
+    }
+
+    #services-calculator .card{
+
+        width: 100%;
+
+        padding: 20px;
+
+    }
+
+    #services-calculator .card label{
+
+        font-size: 1rem;
+
+    }
+
+    #services-calculator .card input{
+
+        font-size: .9rem;
+
+    }
+
+    #total-price{
+
+        font-size: 1.3rem;
+
+    }
+
+    .note{
+
+        font-size: .85rem;
+
+    }
+
+}
